@@ -115,8 +115,8 @@ Home.Parent = SidePanel
 Home.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Home.BorderSizePixel = 0
-Home.Position = UDim2.new(-0.0117643466, 0, 0.122857124, 0)
-Home.Size = UDim2.new(0, 172, 0, 42)
+Home.Position = UDim2.new(-0.0117643466, 0, 0.119999997, 0)
+Home.Size = UDim2.new(0, 172, 0, 43)
 Home.Font = Enum.Font.SourceSansSemibold
 Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -129,7 +129,7 @@ Bar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Bar.BorderSizePixel = 0
 Bar.Position = UDim2.new(1, 0, 0.119999997, 0)
-Bar.Size = UDim2.new(0, -170, 0, 2)
+Bar.Size = UDim2.new(0, -171, 0, 2)
 
 UICorner_3.CornerRadius = UDim.new(0, 4)
 UICorner_3.Parent = Bar
@@ -139,8 +139,8 @@ Scripts.Parent = SidePanel
 Scripts.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Scripts.BorderSizePixel = 0
-Scripts.Position = UDim2.new(-0.0117643466, 0, 0.216746017, 0)
-Scripts.Size = UDim2.new(0, 172, 0, 44)
+Scripts.Position = UDim2.new(-0.0117643466, 0, 0.215555549, 0)
+Scripts.Size = UDim2.new(0, 172, 0, 46)
 Scripts.Font = Enum.Font.SourceSansSemibold
 Scripts.Text = "Scripts"
 Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -163,8 +163,8 @@ Universal.Parent = SidePanel
 Universal.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Universal.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Universal.BorderSizePixel = 0
-Universal.Position = UDim2.new(-0.0117643466, 0, 0.320476204, 0)
-Universal.Size = UDim2.new(0, 172, 0, 42)
+Universal.Position = UDim2.new(-0.0117643466, 0, 0.318968236, 0)
+Universal.Size = UDim2.new(0, 172, 0, 43)
 Universal.Font = Enum.Font.SourceSansSemibold
 Universal.Text = "Universal Scripts"
 Universal.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -539,7 +539,7 @@ TextButton.TextWrapped = true
 
 -- Scripts:
 
-local function JUVQJT_fake_script() -- MainFrame.main 
+local function LWWHYMX_fake_script() -- MainFrame.main 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -555,8 +555,8 @@ local function JUVQJT_fake_script() -- MainFrame.main
 		end
 	end)
 end
-coroutine.wrap(JUVQJT_fake_script)()
-local function KWKLBU_fake_script() -- MainFrame.tabhandler 
+coroutine.wrap(LWWHYMX_fake_script)()
+local function JSURMJT_fake_script() -- MainFrame.tabhandler 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local tabs = {
@@ -597,8 +597,8 @@ local function KWKLBU_fake_script() -- MainFrame.tabhandler
 	
 	switchTab("Home")
 end
-coroutine.wrap(KWKLBU_fake_script)()
-local function DNMRT_fake_script() -- oldhardmod.oldhard 
+coroutine.wrap(JSURMJT_fake_script)()
+local function TLAO_fake_script() -- oldhardmod.oldhard 
 	local script = Instance.new('LocalScript', oldhardmod)
 
 	local button = script.Parent
@@ -606,8 +606,8 @@ local function DNMRT_fake_script() -- oldhardmod.oldhard
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Hardcore%20v4%20recreate/main%20code"))()
 	end)
 end
-coroutine.wrap(DNMRT_fake_script)()
-local function WCXHDG_fake_script() -- mshax.mshax 
+coroutine.wrap(TLAO_fake_script)()
+local function GWHUGPA_fake_script() -- mshax.mshax 
 	local script = Instance.new('LocalScript', mshax)
 
 	local button = script.Parent
@@ -615,8 +615,8 @@ local function WCXHDG_fake_script() -- mshax.mshax
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHunterSolo1/Scripts/refs/heads/main/Protected_2809220311826785.lua.txt"))()
 	end)
 end
-coroutine.wrap(WCXHDG_fake_script)()
-local function ULZG_fake_script() -- xmasmod.xmas 
+coroutine.wrap(GWHUGPA_fake_script)()
+local function ABAAF_fake_script() -- xmasmod.xmas 
 	local script = Instance.new('LocalScript', xmasmod)
 
 	local button = script.Parent
@@ -624,8 +624,8 @@ local function ULZG_fake_script() -- xmasmod.xmas
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/xmasmode/refs/heads/main/xmasmode.txt"))()
 	end)
 end
-coroutine.wrap(ULZG_fake_script)()
-local function YYGGG_fake_script() -- graphicmod.graphic 
+coroutine.wrap(ABAAF_fake_script)()
+local function DGQRRG_fake_script() -- graphicmod.graphic 
 	local script = Instance.new('LocalScript', graphicmod)
 
 	local button = script.Parent
@@ -633,8 +633,8 @@ local function YYGGG_fake_script() -- graphicmod.graphic
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/2017mode/refs/heads/main/2017MODEtxt.txt"))()
 	end)
 end
-coroutine.wrap(YYGGG_fake_script)()
-local function HMUWLS_fake_script() -- sizestick.sizestick 
+coroutine.wrap(DGQRRG_fake_script)()
+local function MNRYXNC_fake_script() -- sizestick.sizestick 
 	local script = Instance.new('LocalScript', sizestick)
 
 	local button = script.Parent
@@ -642,8 +642,8 @@ local function HMUWLS_fake_script() -- sizestick.sizestick
 		loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/f0178af2301ca90c09895f10f3e7bd4b/raw/46899ccc3626f3485d85f990012f7ef37ae52e5e/resizerDoorsRemake'))() 
 	end)
 end
-coroutine.wrap(HMUWLS_fake_script)()
-local function DODWEGS_fake_script() -- shearsmod.shears 
+coroutine.wrap(MNRYXNC_fake_script)()
+local function YILTFJ_fake_script() -- shearsmod.shears 
 	local script = Instance.new('LocalScript', shearsmod)
 
 	local button = script.Parent
@@ -664,8 +664,8 @@ local function DODWEGS_fake_script() -- shearsmod.shears
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Buffed%20Shears%20On%20Everything.lua"))()
 	end)
 end
-coroutine.wrap(DODWEGS_fake_script)()
-local function JAXU_fake_script() -- bananagun.banana 
+coroutine.wrap(YILTFJ_fake_script)()
+local function SLKAXB_fake_script() -- bananagun.banana 
 	local script = Instance.new('LocalScript', bananagun)
 
 	local button = script.Parent
@@ -673,8 +673,8 @@ local function JAXU_fake_script() -- bananagun.banana
 		loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
 	end)
 end
-coroutine.wrap(JAXU_fake_script)()
-local function RVUU_fake_script() -- entityspawner.entityspawn 
+coroutine.wrap(SLKAXB_fake_script)()
+local function SLWPFUA_fake_script() -- entityspawner.entityspawn 
 	local script = Instance.new('LocalScript', entityspawner)
 
 	local button = script.Parent
@@ -682,8 +682,8 @@ local function RVUU_fake_script() -- entityspawner.entityspawn
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
 	end)
 end
-coroutine.wrap(RVUU_fake_script)()
-local function PUNHH_fake_script() -- goldgummyflashlight.goldflash 
+coroutine.wrap(SLWPFUA_fake_script)()
+local function MMQNRXY_fake_script() -- goldgummyflashlight.goldflash 
 	local script = Instance.new('LocalScript', goldgummyflashlight)
 
 	local button = script.Parent
@@ -691,8 +691,8 @@ local function PUNHH_fake_script() -- goldgummyflashlight.goldflash
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/aadyian9000/the-thing/main/GoldenGummyFlashlight.lua"),true))()
 	end)
 end
-coroutine.wrap(PUNHH_fake_script)()
-local function COYWYV_fake_script() -- founddationcrucifix.crucifix 
+coroutine.wrap(MMQNRXY_fake_script)()
+local function ACEL_fake_script() -- founddationcrucifix.crucifix 
 	local script = Instance.new('LocalScript', founddationcrucifix)
 
 	local button = script.Parent
@@ -704,8 +704,8 @@ local function COYWYV_fake_script() -- founddationcrucifix.crucifix
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/IdkMyNameLoll/PublicScripts/refs/heads/main/crucifix_E_A_A"))()
 	end)
 end
-coroutine.wrap(COYWYV_fake_script)()
-local function WSLHGS_fake_script() -- infiniteyield.infyield 
+coroutine.wrap(ACEL_fake_script)()
+local function LGVVW_fake_script() -- infiniteyield.infyield 
 	local script = Instance.new('LocalScript', infiniteyield)
 
 	local button = script.Parent
@@ -713,8 +713,8 @@ local function WSLHGS_fake_script() -- infiniteyield.infyield
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(WSLHGS_fake_script)()
-local function YYJKYWB_fake_script() -- dex.explorer 
+coroutine.wrap(LGVVW_fake_script)()
+local function VXKQ_fake_script() -- dex.explorer 
 	local script = Instance.new('LocalScript', dex)
 
 	local button = script.Parent
@@ -722,8 +722,8 @@ local function YYJKYWB_fake_script() -- dex.explorer
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigBoyTimme/New.Loadstring.Scripts/refs/heads/main/Dex.Explorer"))()
 	end)
 end
-coroutine.wrap(YYJKYWB_fake_script)()
-local function RREBC_fake_script() -- simplespy.spy 
+coroutine.wrap(VXKQ_fake_script)()
+local function SWYRO_fake_script() -- simplespy.spy 
 	local script = Instance.new('LocalScript', simplespy)
 
 	local button = script.Parent
@@ -731,8 +731,8 @@ local function RREBC_fake_script() -- simplespy.spy
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
 	end)
 end
-coroutine.wrap(RREBC_fake_script)()
-local function AZGBAK_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(SWYRO_fake_script)()
+local function LUNOFTZ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -753,4 +753,4 @@ local function AZGBAK_fake_script() -- TextButton.LocalScript
 		isOpen = not isOpen
 	end)
 end
-coroutine.wrap(AZGBAK_fake_script)()
+coroutine.wrap(LUNOFTZ_fake_script)()
