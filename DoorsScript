@@ -3,1399 +3,754 @@
 
 -- Instances:
 
-local ScreenGui = Instance.new('ScreenGui')
-local MainFrame = Instance.new('Frame')
-local TextLabel = Instance.new('TextLabel')
-local UICorner = Instance.new('UICorner')
-local UITextSizeConstraint = Instance.new('UITextSizeConstraint')
-local ScriptFrame = Instance.new('Frame')
-local ScrollingFrame = Instance.new('ScrollingFrame')
-local xmasmod = Instance.new('TextButton')
-local UICorner_2 = Instance.new('UICorner')
-local UITextSizeConstraint_2 = Instance.new('UITextSizeConstraint')
-local shearsmod = Instance.new('TextButton')
-local UICorner_3 = Instance.new('UICorner')
-local UITextSizeConstraint_3 = Instance.new('UITextSizeConstraint')
-local prohaxv3 = Instance.new('TextButton')
-local UICorner_4 = Instance.new('UICorner')
-local UITextSizeConstraint_4 = Instance.new('UITextSizeConstraint')
-local oldhardmod = Instance.new('TextButton')
-local UICorner_5 = Instance.new('UICorner')
-local UITextSizeConstraint_5 = Instance.new('UITextSizeConstraint')
-local lolhax = Instance.new('TextButton')
-local UICorner_6 = Instance.new('UICorner')
-local UITextSizeConstraint_6 = Instance.new('UITextSizeConstraint')
-local infcrucifix = Instance.new('TextButton')
-local UICorner_7 = Instance.new('UICorner')
-local UITextSizeConstraint_7 = Instance.new('UITextSizeConstraint')
-local graphicsmod = Instance.new('TextButton')
-local UICorner_8 = Instance.new('UICorner')
-local UITextSizeConstraint_8 = Instance.new('UITextSizeConstraint')
-local blackking = Instance.new('TextButton')
-local UICorner_9 = Instance.new('UICorner')
-local UITextSizeConstraint_9 = Instance.new('UITextSizeConstraint')
-local astralhub = Instance.new('TextButton')
-local UICorner_10 = Instance.new('UICorner')
-local UITextSizeConstraint_10 = Instance.new('UITextSizeConstraint')
-local sizestick = Instance.new('TextButton')
-local UICorner_11 = Instance.new('UICorner')
-local UITextSizeConstraint_11 = Instance.new('UITextSizeConstraint')
-local trollfacespawner = Instance.new('TextButton')
-local UICorner_12 = Instance.new('UICorner')
-local UITextSizeConstraint_12 = Instance.new('UITextSizeConstraint')
-local bananagun = Instance.new('TextButton')
-local UICorner_13 = Instance.new('UICorner')
-local UITextSizeConstraint_13 = Instance.new('UITextSizeConstraint')
-local goldgummyflashlight = Instance.new('TextButton')
-local UICorner_14 = Instance.new('UICorner')
-local UITextSizeConstraint_14 = Instance.new('UITextSizeConstraint')
-local newhardmod = Instance.new('TextButton')
-local UICorner_15 = Instance.new('UICorner')
-local UITextSizeConstraint_15 = Instance.new('UITextSizeConstraint')
-local entityspawner = Instance.new('TextButton')
-local UICorner_16 = Instance.new('UICorner')
-local UITextSizeConstraint_16 = Instance.new('UITextSizeConstraint')
-local TextLabel_2 = Instance.new('TextLabel')
-local UICorner_17 = Instance.new('UICorner')
-local UITextSizeConstraint_17 = Instance.new('UITextSizeConstraint')
-local TextLabel_3 = Instance.new('TextLabel')
-local UICorner_18 = Instance.new('UICorner')
-local UITextSizeConstraint_18 = Instance.new('UITextSizeConstraint')
-local ScriptFrame2 = Instance.new('Frame')
-local remotespy = Instance.new('TextButton')
-local UICorner_19 = Instance.new('UICorner')
-local UITextSizeConstraint_19 = Instance.new('UITextSizeConstraint')
-local infyield = Instance.new('TextButton')
-local UICorner_20 = Instance.new('UICorner')
-local UITextSizeConstraint_20 = Instance.new('UITextSizeConstraint')
-local flygui = Instance.new('TextButton')
-local UICorner_21 = Instance.new('UICorner')
-local UITextSizeConstraint_21 = Instance.new('UITextSizeConstraint')
-local dexexplorer = Instance.new('TextButton')
-local UICorner_22 = Instance.new('UICorner')
-local UITextSizeConstraint_22 = Instance.new('UITextSizeConstraint')
-local enablejump = Instance.new('TextButton')
-local UICorner_23 = Instance.new('UICorner')
-local UITextSizeConstraint_23 = Instance.new('UITextSizeConstraint')
-local CloseOpenFrame = Instance.new('Frame')
-local openclose = Instance.new('TextButton')
-local UIGradient = Instance.new('UIGradient')
-local UICorner_24 = Instance.new('UICorner')
-local UITextSizeConstraint_24 = Instance.new('UITextSizeConstraint')
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local SidePanel = Instance.new("Frame")
+local SideBar = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local onihax = Instance.new("TextLabel")
+local Home = Instance.new("TextButton")
+local Bar = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Scripts = Instance.new("TextButton")
+local Bar_2 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Universal = Instance.new("TextButton")
+local Bar_3 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Bar_4 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local scriptsframe = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local oldhardmod = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local mshax = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local xmasmod = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local graphicmod = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local sizestick = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local shearsmod = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local bananagun = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local UIPadding = Instance.new("UIPadding")
+local UIListLayout = Instance.new("UIListLayout")
+local entityspawner = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local goldgummyflashlight = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local founddationcrucifix = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local homeframe = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextLabel_2 = Instance.new("TextLabel")
+local universalframe = Instance.new("Frame")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local infiniteyield = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local dex = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UIPadding_2 = Instance.new("UIPadding")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local simplespy = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild('PlayerGui')
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-MainFrame.Name = 'MainFrame'
+MainFrame.Name = "MainFrame"
 MainFrame.Parent = ScreenGui
-MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderSizePixel = 0
-MainFrame.Position = UDim2.new(0.322410852, 0, 0.299479991, 0)
-MainFrame.Size = UDim2.new(0.354166657, 0, 0.358665437, 0)
+MainFrame.Position = UDim2.new(0.241181612, 0, 0.216306299, 0)
+MainFrame.Size = UDim2.new(0, 700, 0, 450)
 
-TextLabel.Parent = MainFrame
-TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(-0.000803091796, 0, 0, 0)
-TextLabel.Size = UDim2.new(1, 0, 0.0852713212, 0)
-TextLabel.ZIndex = 5
-TextLabel.Font = Enum.Font.Unknown
-TextLabel.Text = 'ROBLOX DOORS SCRIPTS | RELEASE V1.1'
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
+SidePanel.Name = "SidePanel"
+SidePanel.Parent = MainFrame
+SidePanel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SidePanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SidePanel.BorderSizePixel = 0
+SidePanel.Size = UDim2.new(0, 170, 0, 450)
 
-UICorner.CornerRadius = UDim.new(0, 6)
-UICorner.Parent = TextLabel
+SideBar.Name = "SideBar"
+SideBar.Parent = SidePanel
+SideBar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+SideBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SideBar.BorderSizePixel = 0
+SideBar.Position = UDim2.new(1, 0, 0, 0)
+SideBar.Size = UDim2.new(0, 2, 0, 450)
 
-UITextSizeConstraint.Parent = TextLabel
-UITextSizeConstraint.MaxTextSize = 32
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = SideBar
 
-ScriptFrame.Name = 'ScriptFrame'
-ScriptFrame.Parent = MainFrame
-ScriptFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScriptFrame.BackgroundTransparency = 1.000
-ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScriptFrame.BorderSizePixel = 0
-ScriptFrame.Position = UDim2.new(-0.000803271076, 0, 0.092361927, 0)
-ScriptFrame.Size = UDim2.new(1.00294113, 0, 0.746770024, 0)
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = SidePanel
 
-ScrollingFrame.Parent = ScriptFrame
+onihax.Name = "onihax"
+onihax.Parent = SidePanel
+onihax.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+onihax.BackgroundTransparency = 1.000
+onihax.BorderColor3 = Color3.fromRGB(0, 0, 0)
+onihax.BorderSizePixel = 0
+onihax.Position = UDim2.new(0, 10, 0, 10)
+onihax.Size = UDim2.new(0, 150, 0, 35)
+onihax.Font = Enum.Font.SourceSansSemibold
+onihax.Text = "onihax | free rbx gui"
+onihax.TextColor3 = Color3.fromRGB(255, 255, 255)
+onihax.TextScaled = true
+onihax.TextSize = 35.000
+onihax.TextWrapped = true
+
+Home.Name = "Home"
+Home.Parent = SidePanel
+Home.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(-0.0117643466, 0, 0.122857124, 0)
+Home.Size = UDim2.new(0, 172, 0, 42)
+Home.Font = Enum.Font.SourceSansSemibold
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.TextSize = 30.000
+Home.TextWrapped = true
+
+Bar.Name = "Bar"
+Bar.Parent = SidePanel
+Bar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(1, 0, 0.119999997, 0)
+Bar.Size = UDim2.new(0, -170, 0, 2)
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Bar
+
+Scripts.Name = "Scripts"
+Scripts.Parent = SidePanel
+Scripts.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(-0.0117643466, 0, 0.216746017, 0)
+Scripts.Size = UDim2.new(0, 172, 0, 44)
+Scripts.Font = Enum.Font.SourceSansSemibold
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextSize = 30.000
+Scripts.TextWrapped = true
+
+Bar_2.Name = "Bar"
+Bar_2.Parent = SidePanel
+Bar_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Bar_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_2.BorderSizePixel = 0
+Bar_2.Position = UDim2.new(1, 0, 0.21325399, 0)
+Bar_2.Size = UDim2.new(0, -171, 0, 2)
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = Bar_2
+
+Universal.Name = "Universal"
+Universal.Parent = SidePanel
+Universal.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Universal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Universal.BorderSizePixel = 0
+Universal.Position = UDim2.new(-0.0117643466, 0, 0.320476204, 0)
+Universal.Size = UDim2.new(0, 172, 0, 42)
+Universal.Font = Enum.Font.SourceSansSemibold
+Universal.Text = "Universal Scripts"
+Universal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Universal.TextSize = 28.000
+Universal.TextWrapped = true
+
+Bar_3.Name = "Bar"
+Bar_3.Parent = SidePanel
+Bar_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Bar_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_3.BorderSizePixel = 0
+Bar_3.Position = UDim2.new(1, 0, 0.316031754, 0)
+Bar_3.Size = UDim2.new(0, -170, 0, 2)
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = Bar_3
+
+Bar_4.Name = "Bar"
+Bar_4.Parent = SidePanel
+Bar_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Bar_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_4.BorderSizePixel = 0
+Bar_4.Position = UDim2.new(0.999882221, 0, 0.413666666, 0)
+Bar_4.Size = UDim2.new(0, -170, 0, 2)
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = Bar_4
+
+scriptsframe.Name = "scriptsframe"
+scriptsframe.Parent = MainFrame
+scriptsframe.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+scriptsframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptsframe.BorderSizePixel = 0
+scriptsframe.Position = UDim2.new(0.264285535, 0, 0.0222222898, 0)
+scriptsframe.Size = UDim2.new(0, 505, 0, 430)
+scriptsframe.Visible = false
+
+ScrollingFrame.Parent = scriptsframe
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(-1.07393237e-06, 0, 0.000236326436, 0)
-ScrollingFrame.Size = UDim2.new(0.995601177, 0, 0.83911705, 0)
-ScrollingFrame.MidImage = ''
-ScrollingFrame.ScrollBarThickness = 10
+ScrollingFrame.Position = UDim2.new(0, 0, 3.54855558e-08, 0)
+ScrollingFrame.Size = UDim2.new(0, 505, 0, 429)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 11)
+ScrollingFrame.ScrollBarThickness = 5
 
-xmasmod.Name = 'xmasmod'
-xmasmod.Parent = ScrollingFrame
-xmasmod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-xmasmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
-xmasmod.BorderSizePixel = 0
-xmasmod.Position = UDim2.new(0.0160000008, 0, 0.300000012, 0)
-xmasmod.Size = UDim2.new(0, 186, 0, 44)
-xmasmod.ZIndex = 10
-xmasmod.Font = Enum.Font.Unknown
-xmasmod.Text = 'XMAS MOD'
-xmasmod.TextColor3 = Color3.fromRGB(0, 0, 0)
-xmasmod.TextScaled = true
-xmasmod.TextSize = 14.000
-xmasmod.TextWrapped = true
-
-UICorner_2.CornerRadius = UDim.new(0, 6)
-UICorner_2.Parent = xmasmod
-
-UITextSizeConstraint_2.Parent = xmasmod
-UITextSizeConstraint_2.MaxTextSize = 39
-
-shearsmod.Name = 'shearsmod'
-shearsmod.Parent = ScrollingFrame
-shearsmod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-shearsmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
-shearsmod.BorderSizePixel = 0
-shearsmod.Position = UDim2.new(0.34799999, 0, 0.150000006, 0)
-shearsmod.Size = UDim2.new(0, 185, 0, 44)
-shearsmod.ZIndex = 10
-shearsmod.Font = Enum.Font.Unknown
-shearsmod.Text = 'SHEARS MOD'
-shearsmod.TextColor3 = Color3.fromRGB(0, 0, 0)
-shearsmod.TextScaled = true
-shearsmod.TextSize = 14.000
-shearsmod.TextWrapped = true
-
-UICorner_3.CornerRadius = UDim.new(0, 6)
-UICorner_3.Parent = shearsmod
-
-UITextSizeConstraint_3.Parent = shearsmod
-UITextSizeConstraint_3.MaxTextSize = 32
-
-prohaxv3.Name = 'prohaxv3'
-prohaxv3.Parent = ScrollingFrame
-prohaxv3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-prohaxv3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-prohaxv3.BorderSizePixel = 0
-prohaxv3.Position = UDim2.new(0.349999994, 0, 0.00999999978, 0)
-prohaxv3.Size = UDim2.new(0, 187, 0, 44)
-prohaxv3.ZIndex = 10
-prohaxv3.Font = Enum.Font.Unknown
-prohaxv3.Text = 'PRO HAX V3'
-prohaxv3.TextColor3 = Color3.fromRGB(0, 0, 0)
-prohaxv3.TextScaled = true
-prohaxv3.TextSize = 14.000
-prohaxv3.TextWrapped = true
-
-UICorner_4.CornerRadius = UDim.new(0, 6)
-UICorner_4.Parent = prohaxv3
-
-UITextSizeConstraint_4.Parent = prohaxv3
-UITextSizeConstraint_4.MaxTextSize = 35
-
-oldhardmod.Name = 'oldhardmod'
+oldhardmod.Name = "oldhardmod"
 oldhardmod.Parent = ScrollingFrame
-oldhardmod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oldhardmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
 oldhardmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
 oldhardmod.BorderSizePixel = 0
-oldhardmod.Position = UDim2.new(0.349999994, 0, 0.300000012, 0)
-oldhardmod.Size = UDim2.new(0, 186, 0, 44)
-oldhardmod.ZIndex = 10
-oldhardmod.Font = Enum.Font.Unknown
-oldhardmod.Text = 'OLD HARDCORE MOD'
+oldhardmod.Position = UDim2.new(-0.0298013836, 0, 0, 0)
+oldhardmod.Size = UDim2.new(0, 394, 0, 50)
+oldhardmod.Font = Enum.Font.SourceSansSemibold
+oldhardmod.Text = "old hard mode"
 oldhardmod.TextColor3 = Color3.fromRGB(0, 0, 0)
 oldhardmod.TextScaled = true
 oldhardmod.TextSize = 14.000
 oldhardmod.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 6)
-UICorner_5.Parent = oldhardmod
+UICorner_7.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_7.Parent = oldhardmod
 
-UITextSizeConstraint_5.Parent = oldhardmod
-UITextSizeConstraint_5.MaxTextSize = 44
+mshax.Name = "mshax"
+mshax.Parent = ScrollingFrame
+mshax.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+mshax.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mshax.BorderSizePixel = 0
+mshax.Position = UDim2.new(-0.0298013836, 0, 0.119047619, 0)
+mshax.Size = UDim2.new(0, 394, 0, 50)
+mshax.Font = Enum.Font.SourceSansSemibold
+mshax.Text = "mshax"
+mshax.TextColor3 = Color3.fromRGB(0, 0, 0)
+mshax.TextScaled = true
+mshax.TextSize = 14.000
+mshax.TextWrapped = true
 
-lolhax.Name = 'lolhax'
-lolhax.Parent = ScrollingFrame
-lolhax.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-lolhax.BorderColor3 = Color3.fromRGB(0, 0, 0)
-lolhax.BorderSizePixel = 0
-lolhax.Position = UDim2.new(0.0160000008, 0, 0.00999999978, 0)
-lolhax.Size = UDim2.new(0, 185, 0, 44)
-lolhax.ZIndex = 10
-lolhax.Font = Enum.Font.Unknown
-lolhax.Text = 'LOL HAX'
-lolhax.TextColor3 = Color3.fromRGB(0, 0, 0)
-lolhax.TextScaled = true
-lolhax.TextSize = 14.000
-lolhax.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-lolhax.TextWrapped = true
+UICorner_8.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_8.Parent = mshax
 
-UICorner_6.CornerRadius = UDim.new(0, 6)
-UICorner_6.Parent = lolhax
+xmasmod.Name = "xmasmod"
+xmasmod.Parent = ScrollingFrame
+xmasmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+xmasmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+xmasmod.BorderSizePixel = 0
+xmasmod.Position = UDim2.new(-0.0298013836, 0, 0.238095239, 0)
+xmasmod.Size = UDim2.new(0, 394, 0, 50)
+xmasmod.Font = Enum.Font.SourceSansSemibold
+xmasmod.Text = "chrismas mod"
+xmasmod.TextColor3 = Color3.fromRGB(0, 0, 0)
+xmasmod.TextScaled = true
+xmasmod.TextSize = 14.000
+xmasmod.TextWrapped = true
 
-UITextSizeConstraint_6.Parent = lolhax
-UITextSizeConstraint_6.MaxTextSize = 44
+UICorner_9.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_9.Parent = xmasmod
 
-infcrucifix.Name = 'infcrucifix'
-infcrucifix.Parent = ScrollingFrame
-infcrucifix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-infcrucifix.BorderColor3 = Color3.fromRGB(0, 0, 0)
-infcrucifix.BorderSizePixel = 0
-infcrucifix.Position = UDim2.new(0.69599998, 0, 0.00999999978, 0)
-infcrucifix.Size = UDim2.new(0, 186, 0, 44)
-infcrucifix.ZIndex = 10
-infcrucifix.Font = Enum.Font.Unknown
-infcrucifix.Text = 'INF CRUCIFIX'
-infcrucifix.TextColor3 = Color3.fromRGB(0, 0, 0)
-infcrucifix.TextScaled = true
-infcrucifix.TextSize = 14.000
-infcrucifix.TextWrapped = true
+graphicmod.Name = "graphicmod"
+graphicmod.Parent = ScrollingFrame
+graphicmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+graphicmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+graphicmod.BorderSizePixel = 0
+graphicmod.Position = UDim2.new(-0.0298013836, 0, 0.357142866, 0)
+graphicmod.Size = UDim2.new(0, 394, 0, 50)
+graphicmod.Font = Enum.Font.SourceSansSemibold
+graphicmod.Text = "2017 graphics mod"
+graphicmod.TextColor3 = Color3.fromRGB(0, 0, 0)
+graphicmod.TextScaled = true
+graphicmod.TextSize = 14.000
+graphicmod.TextWrapped = true
 
-UICorner_7.CornerRadius = UDim.new(0, 6)
-UICorner_7.Parent = infcrucifix
+UICorner_10.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_10.Parent = graphicmod
 
-UITextSizeConstraint_7.Parent = infcrucifix
-UITextSizeConstraint_7.MaxTextSize = 33
-
-graphicsmod.Name = 'graphicsmod'
-graphicsmod.Parent = ScrollingFrame
-graphicsmod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-graphicsmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
-graphicsmod.BorderSizePixel = 0
-graphicsmod.Position = UDim2.new(0.697000027, 0, 0.150000006, 0)
-graphicsmod.Size = UDim2.new(0, 186, 0, 44)
-graphicsmod.ZIndex = 10
-graphicsmod.Font = Enum.Font.Unknown
-graphicsmod.Text = '2017GRAPHICS MOD'
-graphicsmod.TextColor3 = Color3.fromRGB(0, 0, 0)
-graphicsmod.TextScaled = true
-graphicsmod.TextSize = 14.000
-graphicsmod.TextWrapped = true
-
-UICorner_8.CornerRadius = UDim.new(0, 6)
-UICorner_8.Parent = graphicsmod
-
-UITextSizeConstraint_8.Parent = graphicsmod
-UITextSizeConstraint_8.MaxTextSize = 44
-
-blackking.Name = 'blackking'
-blackking.Parent = ScrollingFrame
-blackking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-blackking.BorderColor3 = Color3.fromRGB(0, 0, 0)
-blackking.BorderSizePixel = 0
-blackking.Position = UDim2.new(0.0149999997, 0, 0.150000006, 0)
-blackking.Size = UDim2.new(0, 187, 0, 44)
-blackking.ZIndex = 10
-blackking.Font = Enum.Font.Unknown
-blackking.Text = 'BLACKKING (DETECTED)'
-blackking.TextColor3 = Color3.fromRGB(0, 0, 0)
-blackking.TextScaled = true
-blackking.TextSize = 14.000
-blackking.TextWrapped = true
-
-UICorner_9.CornerRadius = UDim.new(0, 6)
-UICorner_9.Parent = blackking
-
-UITextSizeConstraint_9.Parent = blackking
-UITextSizeConstraint_9.MaxTextSize = 44
-
-astralhub.Name = 'astralhub'
-astralhub.Parent = ScrollingFrame
-astralhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-astralhub.BorderColor3 = Color3.fromRGB(0, 0, 0)
-astralhub.BorderSizePixel = 0
-astralhub.Position = UDim2.new(0.698000014, 0, 0.300000012, 0)
-astralhub.Size = UDim2.new(0, 186, 0, 44)
-astralhub.ZIndex = 10
-astralhub.Font = Enum.Font.Unknown
-astralhub.Text = 'ASTRAL HUB GUI'
-astralhub.TextColor3 = Color3.fromRGB(0, 0, 0)
-astralhub.TextScaled = true
-astralhub.TextSize = 14.000
-astralhub.TextWrapped = true
-
-UICorner_10.CornerRadius = UDim.new(0, 6)
-UICorner_10.Parent = astralhub
-
-UITextSizeConstraint_10.Parent = astralhub
-UITextSizeConstraint_10.MaxTextSize = 25
-
-sizestick.Name = 'sizestick'
+sizestick.Name = "sizestick"
 sizestick.Parent = ScrollingFrame
-sizestick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sizestick.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
 sizestick.BorderColor3 = Color3.fromRGB(0, 0, 0)
 sizestick.BorderSizePixel = 0
-sizestick.Position = UDim2.new(0.349999994, 0, 0.449999988, 0)
-sizestick.Size = UDim2.new(0, 186, 0, 44)
-sizestick.ZIndex = 10
-sizestick.Font = Enum.Font.Unknown
-sizestick.Text = 'SIZE STICK'
+sizestick.Position = UDim2.new(-0.0298013836, 0, 0.476190478, 0)
+sizestick.Size = UDim2.new(0, 394, 0, 50)
+sizestick.Font = Enum.Font.SourceSansSemibold
+sizestick.Text = "size stick"
 sizestick.TextColor3 = Color3.fromRGB(0, 0, 0)
 sizestick.TextScaled = true
 sizestick.TextSize = 14.000
 sizestick.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 6)
+UICorner_11.CornerRadius = UDim.new(0.150000006, 0)
 UICorner_11.Parent = sizestick
 
-UITextSizeConstraint_11.Parent = sizestick
-UITextSizeConstraint_11.MaxTextSize = 39
+shearsmod.Name = "shearsmod"
+shearsmod.Parent = ScrollingFrame
+shearsmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+shearsmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shearsmod.BorderSizePixel = 0
+shearsmod.Position = UDim2.new(-0.0298013836, 0, 0.59523809, 0)
+shearsmod.Size = UDim2.new(0, 394, 0, 50)
+shearsmod.Font = Enum.Font.SourceSansSemibold
+shearsmod.Text = "shears mod"
+shearsmod.TextColor3 = Color3.fromRGB(0, 0, 0)
+shearsmod.TextScaled = true
+shearsmod.TextSize = 14.000
+shearsmod.TextWrapped = true
 
-trollfacespawner.Name = 'trollfacespawner'
-trollfacespawner.Parent = ScrollingFrame
-trollfacespawner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-trollfacespawner.BorderColor3 = Color3.fromRGB(0, 0, 0)
-trollfacespawner.BorderSizePixel = 0
-trollfacespawner.Position = UDim2.new(0.698000014, 0, 0.600000024, 0)
-trollfacespawner.Size = UDim2.new(0, 186, 0, 44)
-trollfacespawner.ZIndex = 10
-trollfacespawner.Font = Enum.Font.Unknown
-trollfacespawner.Text = 'TROLL FACE SPAWNER'
-trollfacespawner.TextColor3 = Color3.fromRGB(0, 0, 0)
-trollfacespawner.TextScaled = true
-trollfacespawner.TextSize = 14.000
-trollfacespawner.TextWrapped = true
+UICorner_12.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_12.Parent = shearsmod
 
-UICorner_12.CornerRadius = UDim.new(0, 6)
-UICorner_12.Parent = trollfacespawner
-
-UITextSizeConstraint_12.Parent = trollfacespawner
-UITextSizeConstraint_12.MaxTextSize = 44
-
-bananagun.Name = 'bananagun'
+bananagun.Name = "bananagun"
 bananagun.Parent = ScrollingFrame
-bananagun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bananagun.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
 bananagun.BorderColor3 = Color3.fromRGB(0, 0, 0)
 bananagun.BorderSizePixel = 0
-bananagun.Position = UDim2.new(0.698000014, 0, 0.449999988, 0)
-bananagun.Size = UDim2.new(0, 186, 0, 44)
-bananagun.ZIndex = 10
-bananagun.Font = Enum.Font.Unknown
-bananagun.Text = 'BANANAGUN'
+bananagun.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+bananagun.Size = UDim2.new(0, 394, 0, 50)
+bananagun.Font = Enum.Font.SourceSansSemibold
+bananagun.Text = "banana gun"
 bananagun.TextColor3 = Color3.fromRGB(0, 0, 0)
 bananagun.TextScaled = true
 bananagun.TextSize = 14.000
 bananagun.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0, 6)
+UICorner_13.CornerRadius = UDim.new(0.150000006, 0)
 UICorner_13.Parent = bananagun
 
-UITextSizeConstraint_13.Parent = bananagun
-UITextSizeConstraint_13.MaxTextSize = 33
+UIPadding.Parent = ScrollingFrame
+UIPadding.PaddingTop = UDim.new(0, 20)
 
-goldgummyflashlight.Name = 'goldgummyflashlight'
-goldgummyflashlight.Parent = ScrollingFrame
-goldgummyflashlight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-goldgummyflashlight.BorderColor3 = Color3.fromRGB(0, 0, 0)
-goldgummyflashlight.BorderSizePixel = 0
-goldgummyflashlight.Position = UDim2.new(0.349615842, 0, 1.48472762, 0)
-goldgummyflashlight.Size = UDim2.new(0, 186, 0, 44)
-goldgummyflashlight.ZIndex = 10
-goldgummyflashlight.Font = Enum.Font.Unknown
-goldgummyflashlight.Text = 'GOLD GUMMY FLASHLIGHT'
-goldgummyflashlight.TextColor3 = Color3.fromRGB(0, 0, 0)
-goldgummyflashlight.TextScaled = true
-goldgummyflashlight.TextSize = 14.000
-goldgummyflashlight.TextWrapped = true
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 20)
 
-UICorner_14.CornerRadius = UDim.new(0, 6)
-UICorner_14.Parent = goldgummyflashlight
-
-UITextSizeConstraint_14.Parent = goldgummyflashlight
-UITextSizeConstraint_14.MaxTextSize = 44
-
-newhardmod.Name = 'newhardmod'
-newhardmod.Parent = ScrollingFrame
-newhardmod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-newhardmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
-newhardmod.BorderSizePixel = 0
-newhardmod.Position = UDim2.new(0.0160000008, 0, 0.449999988, 0)
-newhardmod.Size = UDim2.new(0, 186, 0, 44)
-newhardmod.ZIndex = 10
-newhardmod.Font = Enum.Font.Unknown
-newhardmod.Text = 'NEW HARDCORE MOD'
-newhardmod.TextColor3 = Color3.fromRGB(0, 0, 0)
-newhardmod.TextScaled = true
-newhardmod.TextSize = 14.000
-newhardmod.TextWrapped = true
-
-UICorner_15.CornerRadius = UDim.new(0, 6)
-UICorner_15.Parent = newhardmod
-
-UITextSizeConstraint_15.Parent = newhardmod
-UITextSizeConstraint_15.MaxTextSize = 44
-
-entityspawner.Name = 'entityspawner'
+entityspawner.Name = "entityspawner"
 entityspawner.Parent = ScrollingFrame
-entityspawner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+entityspawner.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
 entityspawner.BorderColor3 = Color3.fromRGB(0, 0, 0)
 entityspawner.BorderSizePixel = 0
-entityspawner.Position = UDim2.new(0.0159824602, 0, 1.48472762, 0)
-entityspawner.Size = UDim2.new(0, 186, 0, 44)
-entityspawner.ZIndex = 10
-entityspawner.Font = Enum.Font.Unknown
-entityspawner.Text = 'ENTITY SPAWNER'
+entityspawner.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+entityspawner.Size = UDim2.new(0, 394, 0, 50)
+entityspawner.Font = Enum.Font.SourceSansSemibold
+entityspawner.Text = "entity spawner"
 entityspawner.TextColor3 = Color3.fromRGB(0, 0, 0)
 entityspawner.TextScaled = true
 entityspawner.TextSize = 14.000
 entityspawner.TextWrapped = true
 
-UICorner_16.CornerRadius = UDim.new(0, 6)
-UICorner_16.Parent = entityspawner
+UICorner_14.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_14.Parent = entityspawner
 
-UITextSizeConstraint_16.Parent = entityspawner
-UITextSizeConstraint_16.MaxTextSize = 24
+goldgummyflashlight.Name = "goldgummyflashlight"
+goldgummyflashlight.Parent = ScrollingFrame
+goldgummyflashlight.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+goldgummyflashlight.BorderColor3 = Color3.fromRGB(0, 0, 0)
+goldgummyflashlight.BorderSizePixel = 0
+goldgummyflashlight.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+goldgummyflashlight.Size = UDim2.new(0, 394, 0, 50)
+goldgummyflashlight.Font = Enum.Font.SourceSansSemibold
+goldgummyflashlight.Text = "gold gummy flashlight"
+goldgummyflashlight.TextColor3 = Color3.fromRGB(0, 0, 0)
+goldgummyflashlight.TextScaled = true
+goldgummyflashlight.TextSize = 14.000
+goldgummyflashlight.TextWrapped = true
 
-TextLabel_2.Parent = MainFrame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+UICorner_15.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_15.Parent = goldgummyflashlight
+
+founddationcrucifix.Name = "founddationcrucifix"
+founddationcrucifix.Parent = ScrollingFrame
+founddationcrucifix.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+founddationcrucifix.BorderColor3 = Color3.fromRGB(0, 0, 0)
+founddationcrucifix.BorderSizePixel = 0
+founddationcrucifix.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+founddationcrucifix.Size = UDim2.new(0, 394, 0, 50)
+founddationcrucifix.Font = Enum.Font.SourceSansSemibold
+founddationcrucifix.Text = "inf foundation crucifix"
+founddationcrucifix.TextColor3 = Color3.fromRGB(0, 0, 0)
+founddationcrucifix.TextScaled = true
+founddationcrucifix.TextSize = 14.000
+founddationcrucifix.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_16.Parent = founddationcrucifix
+
+homeframe.Name = "homeframe"
+homeframe.Parent = MainFrame
+homeframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+homeframe.BackgroundTransparency = 1.000
+homeframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+homeframe.BorderSizePixel = 0
+homeframe.Position = UDim2.new(0.263999999, 0, 0.0219999999, 0)
+homeframe.Size = UDim2.new(0, 505, 0, 430)
+
+TextLabel.Parent = homeframe
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 505, 0, 131)
+TextLabel.Font = Enum.Font.RobotoMono
+TextLabel.Text = "Welcome to onihax, a free roblox doors script hub gui. Has useful scripts to use for doors. I will add more scripts and stuff to the gui soon!"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = homeframe
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0, 0, 0.820930302, 0)
+TextBox.Size = UDim2.new(0, 505, 0, 77)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.RobotoMono
+TextBox.Text = "Discord Server: https://discord.gg/kuPrwGJkNJ"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 30.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_2.Parent = homeframe
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.00170275534, 0, 0.921398401, 0)
-TextLabel_2.Size = UDim2.new(0.997058809, 0, 0.0723514184, 0)
-TextLabel_2.Font = Enum.Font.JosefinSans
-TextLabel_2.Text = 'ALL ARE NOT MADE BY ME! Enjoy open source script gui!'
+TextLabel_2.Position = UDim2.new(0, 0, 0.348837197, 0)
+TextLabel_2.Size = UDim2.new(0, 505, 0, 131)
+TextLabel_2.Font = Enum.Font.RobotoMono
+TextLabel_2.Text = "PC: RIGHT SHIFT TO OPEN/CLOSE         MOBILE: CLICK THE little BUTTON ON THE LEFT"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_17.CornerRadius = UDim.new(0, 6)
-UICorner_17.Parent = TextLabel_2
+universalframe.Name = "universalframe"
+universalframe.Parent = MainFrame
+universalframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+universalframe.BackgroundTransparency = 1.000
+universalframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+universalframe.BorderSizePixel = 0
+universalframe.Position = UDim2.new(0.263999999, 0, 0.0219999999, 0)
+universalframe.Size = UDim2.new(0, 505, 0, 430)
+universalframe.Visible = false
 
-UITextSizeConstraint_17.Parent = TextLabel_2
-UITextSizeConstraint_17.MaxTextSize = 24
+ScrollingFrame_2.Parent = universalframe
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Position = UDim2.new(0, 0, 3.54855558e-08, 0)
+ScrollingFrame_2.Size = UDim2.new(0, 505, 0, 429)
+ScrollingFrame_2.ScrollBarThickness = 5
 
-TextLabel_3.Parent = MainFrame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.00170257618, 0, 0.844209611, 0)
-TextLabel_3.Size = UDim2.new(1, 0, 0.0723514184, 0)
-TextLabel_3.Font = Enum.Font.JosefinSans
-TextLabel_3.Text =
-    'PC: RIGHT SHIFT TO HIDE OR OPEN. MOBILE: BUTTON ON LEFT SIDE'
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 0)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+infiniteyield.Name = "infiniteyield"
+infiniteyield.Parent = ScrollingFrame_2
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 55, 58)
+infiniteyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.BorderSizePixel = 0
+infiniteyield.Position = UDim2.new(-0.0298013836, 0, 0.119047619, 0)
+infiniteyield.Size = UDim2.new(0, 394, 0, 50)
+infiniteyield.Font = Enum.Font.SourceSansSemibold
+infiniteyield.Text = "infinite yield FE"
+infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.TextScaled = true
+infiniteyield.TextSize = 14.000
+infiniteyield.TextWrapped = true
 
-UICorner_18.CornerRadius = UDim.new(0, 6)
-UICorner_18.Parent = TextLabel_3
+UICorner_17.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_17.Parent = infiniteyield
 
-UITextSizeConstraint_18.Parent = TextLabel_3
-UITextSizeConstraint_18.MaxTextSize = 18
+dex.Name = "dex"
+dex.Parent = ScrollingFrame_2
+dex.BackgroundColor3 = Color3.fromRGB(255, 55, 58)
+dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dex.BorderSizePixel = 0
+dex.Position = UDim2.new(-0.0298013836, 0, 0.357142866, 0)
+dex.Size = UDim2.new(0, 394, 0, 50)
+dex.Font = Enum.Font.SourceSansSemibold
+dex.Text = "dex explorer"
+dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+dex.TextScaled = true
+dex.TextSize = 14.000
+dex.TextWrapped = true
 
-ScriptFrame2.Name = 'ScriptFrame2'
-ScriptFrame2.Parent = MainFrame
-ScriptFrame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScriptFrame2.BackgroundTransparency = 1.000
-ScriptFrame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScriptFrame2.BorderSizePixel = 0
-ScriptFrame2.Position = UDim2.new(0.00170257618, 0, 0.702895105, 0)
-ScriptFrame2.Size = UDim2.new(0.997058809, 0, 0.121447027, 0)
+UICorner_18.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_18.Parent = dex
 
-remotespy.Name = 'remotespy'
-remotespy.Parent = ScriptFrame2
-remotespy.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-remotespy.BorderColor3 = Color3.fromRGB(0, 0, 0)
-remotespy.BorderSizePixel = 0
-remotespy.Position = UDim2.new(0.807027876, 0, 0.133562461, 0)
-remotespy.Size = UDim2.new(0.187315628, 0, 0.765957475, 0)
-remotespy.ZIndex = 10
-remotespy.Font = Enum.Font.Unknown
-remotespy.Text = 'REMOTE SPY'
-remotespy.TextColor3 = Color3.fromRGB(255, 255, 255)
-remotespy.TextScaled = true
-remotespy.TextSize = 15.000
-remotespy.TextWrapped = true
+UIPadding_2.Parent = ScrollingFrame_2
+UIPadding_2.PaddingTop = UDim.new(0, 20)
 
-UICorner_19.CornerRadius = UDim.new(0, 6)
-UICorner_19.Parent = remotespy
+UIListLayout_2.Parent = ScrollingFrame_2
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 20)
 
-UITextSizeConstraint_19.Parent = remotespy
-UITextSizeConstraint_19.MaxTextSize = 20
+simplespy.Name = "simplespy"
+simplespy.Parent = ScrollingFrame_2
+simplespy.BackgroundColor3 = Color3.fromRGB(255, 55, 58)
+simplespy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+simplespy.BorderSizePixel = 0
+simplespy.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+simplespy.Size = UDim2.new(0, 394, 0, 50)
+simplespy.Font = Enum.Font.SourceSansSemibold
+simplespy.Text = "simple spy v3"
+simplespy.TextColor3 = Color3.fromRGB(0, 0, 0)
+simplespy.TextScaled = true
+simplespy.TextSize = 14.000
+simplespy.TextWrapped = true
 
-infyield.Name = 'infyield'
-infyield.Parent = ScriptFrame2
-infyield.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-infyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
-infyield.BorderSizePixel = 0
-infyield.Position = UDim2.new(-2.74163813e-06, 0, 0.133974761, 0)
-infyield.Size = UDim2.new(0.187315628, 0, 0.765957475, 0)
-infyield.ZIndex = 10
-infyield.Font = Enum.Font.Unknown
-infyield.Text = 'INFINITE YIELD'
-infyield.TextColor3 = Color3.fromRGB(255, 255, 255)
-infyield.TextScaled = true
-infyield.TextSize = 14.000
-infyield.TextWrapped = true
+UICorner_19.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_19.Parent = simplespy
 
-UICorner_20.CornerRadius = UDim.new(0, 6)
-UICorner_20.Parent = infyield
-
-UITextSizeConstraint_20.Parent = infyield
-UITextSizeConstraint_20.MaxTextSize = 20
-
-flygui.Name = 'flygui'
-flygui.Parent = ScriptFrame2
-flygui.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-flygui.BorderColor3 = Color3.fromRGB(0, 0, 0)
-flygui.BorderSizePixel = 0
-flygui.Position = UDim2.new(0.402123868, 0, 0.133974761, 0)
-flygui.Size = UDim2.new(0.187315628, 0, 0.765957475, 0)
-flygui.ZIndex = 10
-flygui.Font = Enum.Font.Unknown
-flygui.Text = 'FLY GUI'
-flygui.TextColor3 = Color3.fromRGB(255, 255, 255)
-flygui.TextScaled = true
-flygui.TextSize = 20.000
-flygui.TextWrapped = true
-
-UICorner_21.CornerRadius = UDim.new(0, 6)
-UICorner_21.Parent = flygui
-
-UITextSizeConstraint_21.Parent = flygui
-UITextSizeConstraint_21.MaxTextSize = 20
-
-dexexplorer.Name = 'dexexplorer'
-dexexplorer.Parent = ScriptFrame2
-dexexplorer.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-dexexplorer.BorderColor3 = Color3.fromRGB(0, 0, 0)
-dexexplorer.BorderSizePixel = 0
-dexexplorer.Position = UDim2.new(0.60568428, 0, 0.131507382, 0)
-dexexplorer.Size = UDim2.new(0.187315628, 0, 0.765957475, 0)
-dexexplorer.ZIndex = 10
-dexexplorer.Font = Enum.Font.Unknown
-dexexplorer.Text = 'DEX EXPLORER'
-dexexplorer.TextColor3 = Color3.fromRGB(255, 255, 255)
-dexexplorer.TextScaled = true
-dexexplorer.TextSize = 15.000
-dexexplorer.TextWrapped = true
-
-UICorner_22.CornerRadius = UDim.new(0, 6)
-UICorner_22.Parent = dexexplorer
-
-UITextSizeConstraint_22.Parent = dexexplorer
-UITextSizeConstraint_22.MaxTextSize = 20
-
-enablejump.Name = 'enablejump'
-enablejump.Parent = ScriptFrame2
-enablejump.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-enablejump.BorderColor3 = Color3.fromRGB(0, 0, 0)
-enablejump.BorderSizePixel = 0
-enablejump.Position = UDim2.new(0.199810937, 0, 0.133974761, 0)
-enablejump.Size = UDim2.new(0.187315628, 0, 0.765957475, 0)
-enablejump.ZIndex = 10
-enablejump.Font = Enum.Font.Unknown
-enablejump.Text = 'ENABLE JUMP'
-enablejump.TextColor3 = Color3.fromRGB(255, 255, 255)
-enablejump.TextScaled = true
-enablejump.TextSize = 14.000
-enablejump.TextWrapped = true
-
-UICorner_23.CornerRadius = UDim.new(0, 6)
-UICorner_23.Parent = enablejump
-
-UITextSizeConstraint_23.Parent = enablejump
-UITextSizeConstraint_23.MaxTextSize = 20
-
-CloseOpenFrame.Name = 'CloseOpenFrame'
-CloseOpenFrame.Parent = ScreenGui
-CloseOpenFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CloseOpenFrame.BackgroundTransparency = 1.000
-CloseOpenFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CloseOpenFrame.BorderSizePixel = 0
-CloseOpenFrame.Position = UDim2.new(-2.0043055e-05, 0, 0.402746379, 0)
-CloseOpenFrame.Size = UDim2.new(0.124479167, 0, 0.101019464, 0)
-
-openclose.Name = 'openclose'
-openclose.Parent = CloseOpenFrame
-openclose.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-openclose.BorderColor3 = Color3.fromRGB(0, 0, 0)
-openclose.BorderSizePixel = 0
-openclose.Position = UDim2.new(-0.00224704831, 0, 0.575321853, 0)
-openclose.Size = UDim2.new(0.389121354, 0, 0.238532111, 0)
-openclose.Font = Enum.Font.SourceSans
-openclose.Text = 'open/close'
-openclose.TextColor3 = Color3.fromRGB(0, 0, 0)
-openclose.TextScaled = true
-openclose.TextSize = 14.000
-openclose.TextWrapped = true
-
-UIGradient.Transparency = NumberSequence.new({
-    NumberSequenceKeypoint.new(0.00, 0.50),
-    NumberSequenceKeypoint.new(0.50, 0.00),
-    NumberSequenceKeypoint.new(1.00, 0.50),
-})
-UIGradient.Parent = openclose
-
-UICorner_24.CornerRadius = UDim.new(0, 6)
-UICorner_24.Parent = openclose
-
-UITextSizeConstraint_24.Parent = openclose
-UITextSizeConstraint_24.MaxTextSize = 24
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, 0.468592972, 0)
+TextButton.Size = UDim2.new(0, 100, 0, 30)
+TextButton.Font = Enum.Font.Ubuntu
+TextButton.Text = "/"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
 
 -- Scripts:
 
-local function ZTGF_fake_script() -- MainFrame.LocalScript
-    local script = Instance.new('LocalScript', MainFrame)
+local function JUVQJT_fake_script() -- MainFrame.main 
+	local script = Instance.new('LocalScript', MainFrame)
 
-    local frame = script.Parent
-
-    frame.Active = true
-    frame.Draggable = true
-
-    local UIS = game:GetService('UserInputService')
-
-    UIS.InputBegan:Connect(function(input, gp)
-        if input.KeyCode == Enum.KeyCode.RightShift then
-            frame.Visible = not frame.Visible
-        end
-    end)
+	local frame = script.Parent
+	
+	frame.Active = true
+	frame.Draggable = true
+	
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(input, gp)
+		if input.KeyCode == Enum.KeyCode.RightShift then
+			frame.Visible = not frame.Visible
+		end
+	end)
 end
-coroutine.wrap(ZTGF_fake_script)()
-local function ALRTA_fake_script() -- xmasmod.LocalScript
-    local script = Instance.new('LocalScript', xmasmod)
+coroutine.wrap(JUVQJT_fake_script)()
+local function KWKLBU_fake_script() -- MainFrame.tabhandler 
+	local script = Instance.new('LocalScript', MainFrame)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/Idk-lol2/2017mode/refs/heads/main/2017MODEtxt.txt'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local tabs = {
+		Home = {
+			Button = script.Parent.SidePanel:WaitForChild("Home"),
+			Frame = script.Parent:WaitForChild("homeframe")
+		},
+		Player = {
+			Button = script.Parent.SidePanel:WaitForChild("Scripts"),
+			Frame = script.Parent:WaitForChild("scriptsframe")
+		},
+		Visuals = {
+			Button = script.Parent.SidePanel:WaitForChild("Universal"),
+			Frame = script.Parent:WaitForChild("universalframe")
+		}
+	}
+	
+	local inactiveColor = Color3.fromRGB(20,20,20)
+	local activeColor   = Color3.fromRGB(30,30,30)
+	
+	local function switchTab(tabName)
+		for name, data in pairs(tabs) do
+			if name == tabName then
+				data.Button.BackgroundColor3 = activeColor
+				data.Frame.Visible = true
+			else
+				data.Button.BackgroundColor3 = inactiveColor
+				data.Frame.Visible = false
+			end
+		end
+	end
+	
+	for name, data in pairs(tabs) do
+		data.Button.MouseButton1Click:Connect(function()
+			switchTab(name)
+		end)
+	end
+	
+	switchTab("Home")
 end
-coroutine.wrap(ALRTA_fake_script)()
-local function CJOASNW_fake_script() -- shearsmod.LocalScript
-    local script = Instance.new('LocalScript', shearsmod)
+coroutine.wrap(KWKLBU_fake_script)()
+local function DNMRT_fake_script() -- oldhardmod.oldhard 
+	local script = Instance.new('LocalScript', oldhardmod)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        _G.Luck = 100 -- The chance of shears spawning in the game
-        _G.Spawns = false -- If the shears can spawn naturally in the game
-        -- Tool Customizations --
-        _G.Durability = 5 -- How much durability it will have until it breaks
-        _G.MaxDurability = 5 -- The max durability if you enable regeneration
-        _G.InfiniteUses = false -- If The Shears have infinite uses and cannot break
-        _G.DurabilityTakenEachSnip = 0.25 -- How much each snip you take with the shears takes from the durability
-        _G.SnipSpeed = 1.25 -- The speed of the snipping
-        -- Regeneration --
-        _G.Regens = true -- If the shears regenerate after being used
-        _G.RegenSpeed = 1 -- How fast the shears will regenerate after being used
-        _G.RegenAmount = 0.1 -- How much durability it will regenerate after the chosen amount of time
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/iimateiYT/Scripts/main/Buffed%20Shears%20On%20Everything.lua'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Hardcore%20v4%20recreate/main%20code"))()
+	end)
 end
-coroutine.wrap(CJOASNW_fake_script)()
-local function IRKKXT_fake_script() -- prohaxv3.LocalScript
-    local script = Instance.new('LocalScript', prohaxv3)
+coroutine.wrap(DNMRT_fake_script)()
+local function WCXHDG_fake_script() -- mshax.mshax 
+	local script = Instance.new('LocalScript', mshax)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/TheHunterSolo1/Scripts/refs/heads/main/Protected_2809220311826785.lua.txt'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHunterSolo1/Scripts/refs/heads/main/Protected_2809220311826785.lua.txt"))()
+	end)
 end
-coroutine.wrap(IRKKXT_fake_script)()
-local function AZLJ_fake_script() -- oldhardmod.LocalScript
-    local script = Instance.new('LocalScript', oldhardmod)
+coroutine.wrap(WCXHDG_fake_script)()
+local function ULZG_fake_script() -- xmasmod.xmas 
+	local script = Instance.new('LocalScript', xmasmod)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Hardcore%20v4%20recreate/main%20code'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/xmasmode/refs/heads/main/xmasmode.txt"))()
+	end)
 end
-coroutine.wrap(AZLJ_fake_script)()
-local function LWODYL_fake_script() -- lolhax.LocalScript
-    local script = Instance.new('LocalScript', lolhax)
+coroutine.wrap(ULZG_fake_script)()
+local function YYGGG_fake_script() -- graphicmod.graphic 
+	local script = Instance.new('LocalScript', graphicmod)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/Robloxexploiterz/Release-Lolhax/refs/heads/main/LX%20Doors%20v3.lua'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/2017mode/refs/heads/main/2017MODEtxt.txt"))()
+	end)
 end
-coroutine.wrap(LWODYL_fake_script)()
-local function MEKWH_fake_script() -- infcrucifix.LocalScript
-    local script = Instance.new('LocalScript', infcrucifix)
+coroutine.wrap(YYGGG_fake_script)()
+local function HMUWLS_fake_script() -- sizestick.sizestick 
+	local script = Instance.new('LocalScript', sizestick)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        _G.Uses = 414141414141
-        _G.Range = 30
-        _G.OnAnything = true
-        _G.Fail = false
-        _G.Variant = 'Electric'
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/f0178af2301ca90c09895f10f3e7bd4b/raw/46899ccc3626f3485d85f990012f7ef37ae52e5e/resizerDoorsRemake'))() 
+	end)
 end
-coroutine.wrap(MEKWH_fake_script)()
-local function YWFIZ_fake_script() -- graphicsmod.LocalScript
-    local script = Instance.new('LocalScript', graphicsmod)
+coroutine.wrap(HMUWLS_fake_script)()
+local function DODWEGS_fake_script() -- shearsmod.shears 
+	local script = Instance.new('LocalScript', shearsmod)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/Idk-lol2/2017mode/refs/heads/main/2017MODEtxt.txt'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		-- Spawner Customizations --
+		_G.Luck = 100 -- The chance of shears spawning in the game
+		_G.Spawns = false -- If the shears can spawn naturally in the game
+		-- Tool Customizations --
+		_G.Durability = 5 -- How much durability it will have until it breaks
+		_G.MaxDurability = 5 -- The max durability if you enable regeneration
+		_G.InfiniteUses = false -- If The Shears have infinite uses and cannot break
+		_G.DurabilityTakenEachSnip = 0.15 -- How much each snip you take with the shears takes from the durability
+		_G.SnipSpeed = 1.5 -- The speed of the snipping
+		-- Regeneration --
+		_G.Regens = true -- If the shears regenerate after being used
+		_G.RegenSpeed = 1 -- How fast the shears will regenerate after being used
+		_G.RegenAmount = 1 -- How much durability it will regenerate after the chosen amount of time
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Buffed%20Shears%20On%20Everything.lua"))()
+	end)
 end
-coroutine.wrap(YWFIZ_fake_script)()
-local function PLTLIHQ_fake_script() -- blackking.LocalScript
-    local script = Instance.new('LocalScript', blackking)
+coroutine.wrap(DODWEGS_fake_script)()
+local function JAXU_fake_script() -- bananagun.banana 
+	local script = Instance.new('LocalScript', bananagun)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
+	end)
 end
-coroutine.wrap(PLTLIHQ_fake_script)()
-local function MPFFF_fake_script() -- astralhub.LocalScript
-    local script = Instance.new('LocalScript', astralhub)
+coroutine.wrap(JAXU_fake_script)()
+local function RVUU_fake_script() -- entityspawner.entityspawn 
+	local script = Instance.new('LocalScript', entityspawner)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/PlayzlxD0tmatter/AstralHub/refs/heads/main/AstralHub'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+	end)
 end
-coroutine.wrap(MPFFF_fake_script)()
-local function QKHYX_fake_script() -- sizestick.LocalScript
-    local script = Instance.new('LocalScript', sizestick)
+coroutine.wrap(RVUU_fake_script)()
+local function PUNHH_fake_script() -- goldgummyflashlight.goldflash 
+	local script = Instance.new('LocalScript', goldgummyflashlight)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://gist.githubusercontent.com/IdkMyNameLoll/f0178af2301ca90c09895f10f3e7bd4b/raw/46899ccc3626f3485d85f990012f7ef37ae52e5e/resizerDoorsRemake'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/aadyian9000/the-thing/main/GoldenGummyFlashlight.lua"),true))()
+	end)
 end
-coroutine.wrap(QKHYX_fake_script)()
-local function BAGML_fake_script() -- trollfacespawner.LocalScript
-    local script = Instance.new('LocalScript', trollfacespawner)
+coroutine.wrap(PUNHH_fake_script)()
+local function COYWYV_fake_script() -- founddationcrucifix.crucifix 
+	local script = Instance.new('LocalScript', founddationcrucifix)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://api.hugebonus.xyz/scripts/TrollFaceSpawner.lua'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		_G.CR_Uses = 1000000
+		_G.CR_IsCurious = false
+		_G.CR_HoldKeyRequired = "false"
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/IdkMyNameLoll/PublicScripts/refs/heads/main/crucifix_E_A_A"))()
+	end)
 end
-coroutine.wrap(BAGML_fake_script)()
-local function EDFMHPF_fake_script() -- bananagun.LocalScript
-    local script = Instance.new('LocalScript', bananagun)
+coroutine.wrap(COYWYV_fake_script)()
+local function WSLHGS_fake_script() -- infiniteyield.infyield 
+	local script = Instance.new('LocalScript', infiniteyield)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/CBxBM55t', true))()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
 end
-coroutine.wrap(EDFMHPF_fake_script)()
-local function YNHXDHU_fake_script() -- goldgummyflashlight.LocalScript
-    local script = Instance.new('LocalScript', goldgummyflashlight)
+coroutine.wrap(WSLHGS_fake_script)()
+local function YYJKYWB_fake_script() -- dex.explorer 
+	local script = Instance.new('LocalScript', dex)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/aadyian9000/the-thing/main/GoldenGummyFlashlight.lua',
-                true
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigBoyTimme/New.Loadstring.Scripts/refs/heads/main/Dex.Explorer"))()
+	end)
 end
-coroutine.wrap(YNHXDHU_fake_script)()
-local function YNNASP_fake_script() -- newhardmod.LocalScript
-    local script = Instance.new('LocalScript', newhardmod)
+coroutine.wrap(YYJKYWB_fake_script)()
+local function RREBC_fake_script() -- simplespy.spy 
+	local script = Instance.new('LocalScript', simplespy)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/HardcoreFixed.lua'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
+	end)
 end
-coroutine.wrap(YNNASP_fake_script)()
-local function VCQXIHN_fake_script() -- entityspawner.LocalScript
-    local script = Instance.new('LocalScript', entityspawner)
+coroutine.wrap(RREBC_fake_script)()
+local function AZGBAK_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
 
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
+	local button = script.Parent
+	local mainFrame = button.Parent:WaitForChild("MainFrame")
+	
+	local isOpen = true  
+	mainFrame.Visible = true  
+	button.Text = "Close UI"
+	
+	button.MouseButton1Click:Connect(function()
+		if isOpen then
+			mainFrame.Visible = false
+			button.Text = "Open UI"
+		else
+			mainFrame.Visible = true
+			button.Text = "Close UI"
+		end
+		isOpen = not isOpen
+	end)
 end
-coroutine.wrap(VCQXIHN_fake_script)()
-local function ZXUTW_fake_script() -- remotespy.LocalScript
-    local script = Instance.new('LocalScript', remotespy)
-
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
-end
-coroutine.wrap(ZXUTW_fake_script)()
-local function FMVCVH_fake_script() -- infyield.LocalScript
-    local script = Instance.new('LocalScript', infyield)
-
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source',
-                true
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
-end
-coroutine.wrap(FMVCVH_fake_script)()
-local function WUMS_fake_script() -- flygui.LocalScript
-    local script = Instance.new('LocalScript', flygui)
-
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://rawscripts.net/raw/Universal-Script-Gui-Fly-v3-37111'
-            )
-        )()
-    end)
-end
-coroutine.wrap(WUMS_fake_script)()
-local function GEIOL_fake_script() -- dexexplorer.LocalScript
-    local script = Instance.new('LocalScript', dexexplorer)
-
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        loadstring(
-            game:HttpGet(
-                'https://rawscripts.net/raw/Universal-Script-Gui-Fly-v3-37111'
-            )
-        )()
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
-end
-coroutine.wrap(GEIOL_fake_script)()
-local function KNGLD_fake_script() -- enablejump.LocalScript
-    local script = Instance.new('LocalScript', enablejump)
-
-    local button = script.Parent
-    button.MouseButton1Down:Connect(function()
-        game.Players.LocalPlayer.Character:SetAttribute('CanJump', true)
-    end)
-
-    local gradient = button:FindFirstChildOfClass('UIGradient')
-    if not gradient then
-        gradient = Instance.new('UIGradient')
-        gradient.Parent = button
-    end
-
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.45, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
-        ColorSequenceKeypoint.new(0.55, Color3.fromRGB(230, 230, 230)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255)),
-    })
-
-    gradient.Rotation = 45
-    gradient.Offset = Vector2.new(-1, -1)
-
-    while true do
-        for i = -1, 1, 0.02 do
-            gradient.Offset = Vector2.new(i, i)
-            task.wait(0.03)
-        end
-    end
-end
-coroutine.wrap(KNGLD_fake_script)()
-local function VAVUTIH_fake_script() -- openclose.LocalScript
-    local script = Instance.new('LocalScript', openclose)
-
-    local button = script.Parent
-    local frame = script.Parent.Parent.Parent.MainFrame
-
-    button.MouseButton1Down:Connect(function()
-        frame.Visible = not frame.Visible
-    end)
-end
-coroutine.wrap(VAVUTIH_fake_script)()
+coroutine.wrap(AZGBAK_fake_script)()
