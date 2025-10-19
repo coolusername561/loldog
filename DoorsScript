@@ -45,6 +45,12 @@ local goldgummyflashlight = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
 local founddationcrucifix = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
+local coolkidseek = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local trollfacespawner = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local newhardmod = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
 local homeframe = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextBox = Instance.new("TextBox")
@@ -52,13 +58,15 @@ local TextLabel_2 = Instance.new("TextLabel")
 local universalframe = Instance.new("Frame")
 local ScrollingFrame_2 = Instance.new("ScrollingFrame")
 local infiniteyield = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local dex = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local UIPadding_2 = Instance.new("UIPadding")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local simplespy = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+local cobalt = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
@@ -68,7 +76,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = ScreenGui
-MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderSizePixel = 0
 MainFrame.Position = UDim2.new(0.241181612, 0, 0.216306299, 0)
@@ -76,7 +84,7 @@ MainFrame.Size = UDim2.new(0, 700, 0, 450)
 
 SidePanel.Name = "SidePanel"
 SidePanel.Parent = MainFrame
-SidePanel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SidePanel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 SidePanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SidePanel.BorderSizePixel = 0
 SidePanel.Size = UDim2.new(0, 170, 0, 450)
@@ -104,7 +112,7 @@ onihax.BorderSizePixel = 0
 onihax.Position = UDim2.new(0, 10, 0, 10)
 onihax.Size = UDim2.new(0, 150, 0, 35)
 onihax.Font = Enum.Font.SourceSansSemibold
-onihax.Text = "onihax | free rbx gui"
+onihax.Text = "onihax | free roblox ui"
 onihax.TextColor3 = Color3.fromRGB(255, 255, 255)
 onihax.TextScaled = true
 onihax.TextSize = 35.000
@@ -112,7 +120,7 @@ onihax.TextWrapped = true
 
 Home.Name = "Home"
 Home.Parent = SidePanel
-Home.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Home.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Home.BorderSizePixel = 0
 Home.Position = UDim2.new(-0.0117643466, 0, 0.119999997, 0)
@@ -136,7 +144,7 @@ UICorner_3.Parent = Bar
 
 Scripts.Name = "Scripts"
 Scripts.Parent = SidePanel
-Scripts.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Scripts.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Scripts.BorderSizePixel = 0
 Scripts.Position = UDim2.new(-0.0117643466, 0, 0.215555549, 0)
@@ -160,7 +168,7 @@ UICorner_4.Parent = Bar_2
 
 Universal.Name = "Universal"
 Universal.Parent = SidePanel
-Universal.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Universal.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Universal.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Universal.BorderSizePixel = 0
 Universal.Position = UDim2.new(-0.0117643466, 0, 0.318968236, 0)
@@ -195,7 +203,8 @@ UICorner_6.Parent = Bar_4
 
 scriptsframe.Name = "scriptsframe"
 scriptsframe.Parent = MainFrame
-scriptsframe.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+scriptsframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptsframe.BackgroundTransparency = 0.950
 scriptsframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
 scriptsframe.BorderSizePixel = 0
 scriptsframe.Position = UDim2.new(0.264285535, 0, 0.0222222898, 0)
@@ -210,18 +219,18 @@ ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0, 0, 3.54855558e-08, 0)
 ScrollingFrame.Size = UDim2.new(0, 505, 0, 429)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 11)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 431)
 ScrollingFrame.ScrollBarThickness = 5
 
 oldhardmod.Name = "oldhardmod"
 oldhardmod.Parent = ScrollingFrame
-oldhardmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+oldhardmod.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 oldhardmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
 oldhardmod.BorderSizePixel = 0
 oldhardmod.Position = UDim2.new(-0.0298013836, 0, 0, 0)
 oldhardmod.Size = UDim2.new(0, 394, 0, 50)
 oldhardmod.Font = Enum.Font.SourceSansSemibold
-oldhardmod.Text = "old hard mode"
+oldhardmod.Text = "Old Hard Mode"
 oldhardmod.TextColor3 = Color3.fromRGB(0, 0, 0)
 oldhardmod.TextScaled = true
 oldhardmod.TextSize = 14.000
@@ -232,13 +241,13 @@ UICorner_7.Parent = oldhardmod
 
 mshax.Name = "mshax"
 mshax.Parent = ScrollingFrame
-mshax.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+mshax.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 mshax.BorderColor3 = Color3.fromRGB(0, 0, 0)
 mshax.BorderSizePixel = 0
 mshax.Position = UDim2.new(-0.0298013836, 0, 0.119047619, 0)
 mshax.Size = UDim2.new(0, 394, 0, 50)
 mshax.Font = Enum.Font.SourceSansSemibold
-mshax.Text = "mshax"
+mshax.Text = "MsHax(Not Working)"
 mshax.TextColor3 = Color3.fromRGB(0, 0, 0)
 mshax.TextScaled = true
 mshax.TextSize = 14.000
@@ -249,13 +258,13 @@ UICorner_8.Parent = mshax
 
 xmasmod.Name = "xmasmod"
 xmasmod.Parent = ScrollingFrame
-xmasmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+xmasmod.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 xmasmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
 xmasmod.BorderSizePixel = 0
 xmasmod.Position = UDim2.new(-0.0298013836, 0, 0.238095239, 0)
 xmasmod.Size = UDim2.new(0, 394, 0, 50)
 xmasmod.Font = Enum.Font.SourceSansSemibold
-xmasmod.Text = "chrismas mod"
+xmasmod.Text = "Chrismas Mod"
 xmasmod.TextColor3 = Color3.fromRGB(0, 0, 0)
 xmasmod.TextScaled = true
 xmasmod.TextSize = 14.000
@@ -266,13 +275,13 @@ UICorner_9.Parent = xmasmod
 
 graphicmod.Name = "graphicmod"
 graphicmod.Parent = ScrollingFrame
-graphicmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+graphicmod.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 graphicmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
 graphicmod.BorderSizePixel = 0
 graphicmod.Position = UDim2.new(-0.0298013836, 0, 0.357142866, 0)
 graphicmod.Size = UDim2.new(0, 394, 0, 50)
 graphicmod.Font = Enum.Font.SourceSansSemibold
-graphicmod.Text = "2017 graphics mod"
+graphicmod.Text = "2017 Graphics Mod"
 graphicmod.TextColor3 = Color3.fromRGB(0, 0, 0)
 graphicmod.TextScaled = true
 graphicmod.TextSize = 14.000
@@ -283,13 +292,13 @@ UICorner_10.Parent = graphicmod
 
 sizestick.Name = "sizestick"
 sizestick.Parent = ScrollingFrame
-sizestick.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+sizestick.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 sizestick.BorderColor3 = Color3.fromRGB(0, 0, 0)
 sizestick.BorderSizePixel = 0
 sizestick.Position = UDim2.new(-0.0298013836, 0, 0.476190478, 0)
 sizestick.Size = UDim2.new(0, 394, 0, 50)
 sizestick.Font = Enum.Font.SourceSansSemibold
-sizestick.Text = "size stick"
+sizestick.Text = "Size Stick"
 sizestick.TextColor3 = Color3.fromRGB(0, 0, 0)
 sizestick.TextScaled = true
 sizestick.TextSize = 14.000
@@ -300,13 +309,13 @@ UICorner_11.Parent = sizestick
 
 shearsmod.Name = "shearsmod"
 shearsmod.Parent = ScrollingFrame
-shearsmod.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+shearsmod.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 shearsmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
 shearsmod.BorderSizePixel = 0
 shearsmod.Position = UDim2.new(-0.0298013836, 0, 0.59523809, 0)
 shearsmod.Size = UDim2.new(0, 394, 0, 50)
 shearsmod.Font = Enum.Font.SourceSansSemibold
-shearsmod.Text = "shears mod"
+shearsmod.Text = "Shears Mod"
 shearsmod.TextColor3 = Color3.fromRGB(0, 0, 0)
 shearsmod.TextScaled = true
 shearsmod.TextSize = 14.000
@@ -317,13 +326,13 @@ UICorner_12.Parent = shearsmod
 
 bananagun.Name = "bananagun"
 bananagun.Parent = ScrollingFrame
-bananagun.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+bananagun.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 bananagun.BorderColor3 = Color3.fromRGB(0, 0, 0)
 bananagun.BorderSizePixel = 0
 bananagun.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
 bananagun.Size = UDim2.new(0, 394, 0, 50)
 bananagun.Font = Enum.Font.SourceSansSemibold
-bananagun.Text = "banana gun"
+bananagun.Text = "Banana Gun"
 bananagun.TextColor3 = Color3.fromRGB(0, 0, 0)
 bananagun.TextScaled = true
 bananagun.TextSize = 14.000
@@ -342,13 +351,13 @@ UIListLayout.Padding = UDim.new(0, 20)
 
 entityspawner.Name = "entityspawner"
 entityspawner.Parent = ScrollingFrame
-entityspawner.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+entityspawner.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 entityspawner.BorderColor3 = Color3.fromRGB(0, 0, 0)
 entityspawner.BorderSizePixel = 0
 entityspawner.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
 entityspawner.Size = UDim2.new(0, 394, 0, 50)
 entityspawner.Font = Enum.Font.SourceSansSemibold
-entityspawner.Text = "entity spawner"
+entityspawner.Text = "Entity Spawner"
 entityspawner.TextColor3 = Color3.fromRGB(0, 0, 0)
 entityspawner.TextScaled = true
 entityspawner.TextSize = 14.000
@@ -359,13 +368,13 @@ UICorner_14.Parent = entityspawner
 
 goldgummyflashlight.Name = "goldgummyflashlight"
 goldgummyflashlight.Parent = ScrollingFrame
-goldgummyflashlight.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+goldgummyflashlight.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 goldgummyflashlight.BorderColor3 = Color3.fromRGB(0, 0, 0)
 goldgummyflashlight.BorderSizePixel = 0
 goldgummyflashlight.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
 goldgummyflashlight.Size = UDim2.new(0, 394, 0, 50)
 goldgummyflashlight.Font = Enum.Font.SourceSansSemibold
-goldgummyflashlight.Text = "gold gummy flashlight"
+goldgummyflashlight.Text = "Gold Gummy Flashlight"
 goldgummyflashlight.TextColor3 = Color3.fromRGB(0, 0, 0)
 goldgummyflashlight.TextScaled = true
 goldgummyflashlight.TextSize = 14.000
@@ -376,13 +385,13 @@ UICorner_15.Parent = goldgummyflashlight
 
 founddationcrucifix.Name = "founddationcrucifix"
 founddationcrucifix.Parent = ScrollingFrame
-founddationcrucifix.BackgroundColor3 = Color3.fromRGB(180, 60, 0)
+founddationcrucifix.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 founddationcrucifix.BorderColor3 = Color3.fromRGB(0, 0, 0)
 founddationcrucifix.BorderSizePixel = 0
 founddationcrucifix.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
 founddationcrucifix.Size = UDim2.new(0, 394, 0, 50)
 founddationcrucifix.Font = Enum.Font.SourceSansSemibold
-founddationcrucifix.Text = "inf foundation crucifix"
+founddationcrucifix.Text = "Infinite Crucifix"
 founddationcrucifix.TextColor3 = Color3.fromRGB(0, 0, 0)
 founddationcrucifix.TextScaled = true
 founddationcrucifix.TextSize = 14.000
@@ -391,10 +400,61 @@ founddationcrucifix.TextWrapped = true
 UICorner_16.CornerRadius = UDim.new(0.150000006, 0)
 UICorner_16.Parent = founddationcrucifix
 
+coolkidseek.Name = "coolkidseek"
+coolkidseek.Parent = ScrollingFrame
+coolkidseek.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+coolkidseek.BorderColor3 = Color3.fromRGB(0, 0, 0)
+coolkidseek.BorderSizePixel = 0
+coolkidseek.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+coolkidseek.Size = UDim2.new(0, 394, 0, 50)
+coolkidseek.Font = Enum.Font.SourceSansSemibold
+coolkidseek.Text = "Cool Kid Seek Chase"
+coolkidseek.TextColor3 = Color3.fromRGB(0, 0, 0)
+coolkidseek.TextScaled = true
+coolkidseek.TextSize = 14.000
+coolkidseek.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_17.Parent = coolkidseek
+
+trollfacespawner.Name = "trollfacespawner"
+trollfacespawner.Parent = ScrollingFrame
+trollfacespawner.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+trollfacespawner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+trollfacespawner.BorderSizePixel = 0
+trollfacespawner.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+trollfacespawner.Size = UDim2.new(0, 394, 0, 50)
+trollfacespawner.Font = Enum.Font.SourceSansSemibold
+trollfacespawner.Text = "Troll Face Spawner"
+trollfacespawner.TextColor3 = Color3.fromRGB(0, 0, 0)
+trollfacespawner.TextScaled = true
+trollfacespawner.TextSize = 14.000
+trollfacespawner.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_18.Parent = trollfacespawner
+
+newhardmod.Name = "newhardmod"
+newhardmod.Parent = ScrollingFrame
+newhardmod.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+newhardmod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+newhardmod.BorderSizePixel = 0
+newhardmod.Position = UDim2.new(-0.0298013836, 0, 0, 0)
+newhardmod.Size = UDim2.new(0, 394, 0, 50)
+newhardmod.Font = Enum.Font.SourceSansSemibold
+newhardmod.Text = "Old Hard Mode"
+newhardmod.TextColor3 = Color3.fromRGB(0, 0, 0)
+newhardmod.TextScaled = true
+newhardmod.TextSize = 14.000
+newhardmod.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_19.Parent = newhardmod
+
 homeframe.Name = "homeframe"
 homeframe.Parent = MainFrame
 homeframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-homeframe.BackgroundTransparency = 1.000
+homeframe.BackgroundTransparency = 0.950
 homeframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
 homeframe.BorderSizePixel = 0
 homeframe.Position = UDim2.new(0.263999999, 0, 0.0219999999, 0)
@@ -448,7 +508,7 @@ TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
 universalframe.Name = "universalframe"
 universalframe.Parent = MainFrame
 universalframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-universalframe.BackgroundTransparency = 1.000
+universalframe.BackgroundTransparency = 0.950
 universalframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
 universalframe.BorderSizePixel = 0
 universalframe.Position = UDim2.new(0.263999999, 0, 0.0219999999, 0)
@@ -467,37 +527,37 @@ ScrollingFrame_2.ScrollBarThickness = 5
 
 infiniteyield.Name = "infiniteyield"
 infiniteyield.Parent = ScrollingFrame_2
-infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 55, 58)
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 infiniteyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
 infiniteyield.BorderSizePixel = 0
 infiniteyield.Position = UDim2.new(-0.0298013836, 0, 0.119047619, 0)
 infiniteyield.Size = UDim2.new(0, 394, 0, 50)
 infiniteyield.Font = Enum.Font.SourceSansSemibold
-infiniteyield.Text = "infinite yield FE"
+infiniteyield.Text = "Infinite Yield"
 infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
 infiniteyield.TextScaled = true
 infiniteyield.TextSize = 14.000
 infiniteyield.TextWrapped = true
 
-UICorner_17.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_17.Parent = infiniteyield
+UICorner_20.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_20.Parent = infiniteyield
 
 dex.Name = "dex"
 dex.Parent = ScrollingFrame_2
-dex.BackgroundColor3 = Color3.fromRGB(255, 55, 58)
+dex.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
 dex.BorderSizePixel = 0
 dex.Position = UDim2.new(-0.0298013836, 0, 0.357142866, 0)
 dex.Size = UDim2.new(0, 394, 0, 50)
 dex.Font = Enum.Font.SourceSansSemibold
-dex.Text = "dex explorer"
+dex.Text = "Dex Explorer"
 dex.TextColor3 = Color3.fromRGB(0, 0, 0)
 dex.TextScaled = true
 dex.TextSize = 14.000
 dex.TextWrapped = true
 
-UICorner_18.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_18.Parent = dex
+UICorner_21.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_21.Parent = dex
 
 UIPadding_2.Parent = ScrollingFrame_2
 UIPadding_2.PaddingTop = UDim.new(0, 20)
@@ -509,20 +569,37 @@ UIListLayout_2.Padding = UDim.new(0, 20)
 
 simplespy.Name = "simplespy"
 simplespy.Parent = ScrollingFrame_2
-simplespy.BackgroundColor3 = Color3.fromRGB(255, 55, 58)
+simplespy.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 simplespy.BorderColor3 = Color3.fromRGB(0, 0, 0)
 simplespy.BorderSizePixel = 0
 simplespy.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
 simplespy.Size = UDim2.new(0, 394, 0, 50)
 simplespy.Font = Enum.Font.SourceSansSemibold
-simplespy.Text = "simple spy v3"
+simplespy.Text = "Simple Spy V3"
 simplespy.TextColor3 = Color3.fromRGB(0, 0, 0)
 simplespy.TextScaled = true
 simplespy.TextSize = 14.000
 simplespy.TextWrapped = true
 
-UICorner_19.CornerRadius = UDim.new(0.150000006, 0)
-UICorner_19.Parent = simplespy
+UICorner_22.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_22.Parent = simplespy
+
+cobalt.Name = "cobalt"
+cobalt.Parent = ScrollingFrame_2
+cobalt.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+cobalt.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cobalt.BorderSizePixel = 0
+cobalt.Position = UDim2.new(-0.0298013836, 0, 0.714285731, 0)
+cobalt.Size = UDim2.new(0, 394, 0, 50)
+cobalt.Font = Enum.Font.SourceSansSemibold
+cobalt.Text = "Cobalt"
+cobalt.TextColor3 = Color3.fromRGB(0, 0, 0)
+cobalt.TextScaled = true
+cobalt.TextSize = 14.000
+cobalt.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_23.Parent = cobalt
 
 TextButton.Parent = ScreenGui
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
@@ -539,7 +616,7 @@ TextButton.TextWrapped = true
 
 -- Scripts:
 
-local function LWWHYMX_fake_script() -- MainFrame.main 
+local function OPTXFXZ_fake_script() -- MainFrame.main 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent
@@ -555,8 +632,8 @@ local function LWWHYMX_fake_script() -- MainFrame.main
 		end
 	end)
 end
-coroutine.wrap(LWWHYMX_fake_script)()
-local function JSURMJT_fake_script() -- MainFrame.tabhandler 
+coroutine.wrap(OPTXFXZ_fake_script)()
+local function QCXVLHC_fake_script() -- MainFrame.tabhandler 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local tabs = {
@@ -597,8 +674,8 @@ local function JSURMJT_fake_script() -- MainFrame.tabhandler
 	
 	switchTab("Home")
 end
-coroutine.wrap(JSURMJT_fake_script)()
-local function TLAO_fake_script() -- oldhardmod.oldhard 
+coroutine.wrap(QCXVLHC_fake_script)()
+local function OUOK_fake_script() -- oldhardmod.oldhard 
 	local script = Instance.new('LocalScript', oldhardmod)
 
 	local button = script.Parent
@@ -606,8 +683,8 @@ local function TLAO_fake_script() -- oldhardmod.oldhard
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Hardcore%20v4%20recreate/main%20code"))()
 	end)
 end
-coroutine.wrap(TLAO_fake_script)()
-local function GWHUGPA_fake_script() -- mshax.mshax 
+coroutine.wrap(OUOK_fake_script)()
+local function HZIDQH_fake_script() -- mshax.mshax 
 	local script = Instance.new('LocalScript', mshax)
 
 	local button = script.Parent
@@ -615,8 +692,8 @@ local function GWHUGPA_fake_script() -- mshax.mshax
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHunterSolo1/Scripts/refs/heads/main/Protected_2809220311826785.lua.txt"))()
 	end)
 end
-coroutine.wrap(GWHUGPA_fake_script)()
-local function ABAAF_fake_script() -- xmasmod.xmas 
+coroutine.wrap(HZIDQH_fake_script)()
+local function HXNEVQ_fake_script() -- xmasmod.xmas 
 	local script = Instance.new('LocalScript', xmasmod)
 
 	local button = script.Parent
@@ -624,8 +701,8 @@ local function ABAAF_fake_script() -- xmasmod.xmas
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/xmasmode/refs/heads/main/xmasmode.txt"))()
 	end)
 end
-coroutine.wrap(ABAAF_fake_script)()
-local function DGQRRG_fake_script() -- graphicmod.graphic 
+coroutine.wrap(HXNEVQ_fake_script)()
+local function CMUK_fake_script() -- graphicmod.graphic 
 	local script = Instance.new('LocalScript', graphicmod)
 
 	local button = script.Parent
@@ -633,8 +710,8 @@ local function DGQRRG_fake_script() -- graphicmod.graphic
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/2017mode/refs/heads/main/2017MODEtxt.txt"))()
 	end)
 end
-coroutine.wrap(DGQRRG_fake_script)()
-local function MNRYXNC_fake_script() -- sizestick.sizestick 
+coroutine.wrap(CMUK_fake_script)()
+local function RZHA_fake_script() -- sizestick.sizestick 
 	local script = Instance.new('LocalScript', sizestick)
 
 	local button = script.Parent
@@ -642,8 +719,8 @@ local function MNRYXNC_fake_script() -- sizestick.sizestick
 		loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/f0178af2301ca90c09895f10f3e7bd4b/raw/46899ccc3626f3485d85f990012f7ef37ae52e5e/resizerDoorsRemake'))() 
 	end)
 end
-coroutine.wrap(MNRYXNC_fake_script)()
-local function YILTFJ_fake_script() -- shearsmod.shears 
+coroutine.wrap(RZHA_fake_script)()
+local function AKEEST_fake_script() -- shearsmod.shears 
 	local script = Instance.new('LocalScript', shearsmod)
 
 	local button = script.Parent
@@ -664,8 +741,8 @@ local function YILTFJ_fake_script() -- shearsmod.shears
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Buffed%20Shears%20On%20Everything.lua"))()
 	end)
 end
-coroutine.wrap(YILTFJ_fake_script)()
-local function SLKAXB_fake_script() -- bananagun.banana 
+coroutine.wrap(AKEEST_fake_script)()
+local function SWKPPD_fake_script() -- bananagun.banana 
 	local script = Instance.new('LocalScript', bananagun)
 
 	local button = script.Parent
@@ -673,8 +750,8 @@ local function SLKAXB_fake_script() -- bananagun.banana
 		loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
 	end)
 end
-coroutine.wrap(SLKAXB_fake_script)()
-local function SLWPFUA_fake_script() -- entityspawner.entityspawn 
+coroutine.wrap(SWKPPD_fake_script)()
+local function VVJLWW_fake_script() -- entityspawner.entityspawn 
 	local script = Instance.new('LocalScript', entityspawner)
 
 	local button = script.Parent
@@ -682,8 +759,8 @@ local function SLWPFUA_fake_script() -- entityspawner.entityspawn
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
 	end)
 end
-coroutine.wrap(SLWPFUA_fake_script)()
-local function MMQNRXY_fake_script() -- goldgummyflashlight.goldflash 
+coroutine.wrap(VVJLWW_fake_script)()
+local function LXBLRWL_fake_script() -- goldgummyflashlight.goldflash 
 	local script = Instance.new('LocalScript', goldgummyflashlight)
 
 	local button = script.Parent
@@ -691,8 +768,8 @@ local function MMQNRXY_fake_script() -- goldgummyflashlight.goldflash
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/aadyian9000/the-thing/main/GoldenGummyFlashlight.lua"),true))()
 	end)
 end
-coroutine.wrap(MMQNRXY_fake_script)()
-local function ACEL_fake_script() -- founddationcrucifix.crucifix 
+coroutine.wrap(LXBLRWL_fake_script)()
+local function SKYROM_fake_script() -- founddationcrucifix.crucifix 
 	local script = Instance.new('LocalScript', founddationcrucifix)
 
 	local button = script.Parent
@@ -704,8 +781,35 @@ local function ACEL_fake_script() -- founddationcrucifix.crucifix
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/IdkMyNameLoll/PublicScripts/refs/heads/main/crucifix_E_A_A"))()
 	end)
 end
-coroutine.wrap(ACEL_fake_script)()
-local function LGVVW_fake_script() -- infiniteyield.infyield 
+coroutine.wrap(SKYROM_fake_script)()
+local function SBVNTTC_fake_script() -- coolkidseek.coolkid 
+	local script = Instance.new('LocalScript', coolkidseek)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/IdkMyNameLoll/PublicScripts/refs/heads/main/c00lkiddSeek"))()
+	end)
+end
+coroutine.wrap(SBVNTTC_fake_script)()
+local function ZRIRTWV_fake_script() -- trollfacespawner.trollface 
+	local script = Instance.new('LocalScript', trollfacespawner)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://api.hugebonus.xyz/scripts/TrollFaceSpawner.lua"))()
+	end)
+end
+coroutine.wrap(ZRIRTWV_fake_script)()
+local function VHIIV_fake_script() -- newhardmod.newhard 
+	local script = Instance.new('LocalScript', newhardmod)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/HardcoreFixed.lua"))()
+	end)
+end
+coroutine.wrap(VHIIV_fake_script)()
+local function RCEOG_fake_script() -- infiniteyield.infyield 
 	local script = Instance.new('LocalScript', infiniteyield)
 
 	local button = script.Parent
@@ -713,8 +817,8 @@ local function LGVVW_fake_script() -- infiniteyield.infyield
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(LGVVW_fake_script)()
-local function VXKQ_fake_script() -- dex.explorer 
+coroutine.wrap(RCEOG_fake_script)()
+local function CEIOO_fake_script() -- dex.explorer 
 	local script = Instance.new('LocalScript', dex)
 
 	local button = script.Parent
@@ -722,8 +826,8 @@ local function VXKQ_fake_script() -- dex.explorer
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigBoyTimme/New.Loadstring.Scripts/refs/heads/main/Dex.Explorer"))()
 	end)
 end
-coroutine.wrap(VXKQ_fake_script)()
-local function SWYRO_fake_script() -- simplespy.spy 
+coroutine.wrap(CEIOO_fake_script)()
+local function HTKOZQP_fake_script() -- simplespy.spy 
 	local script = Instance.new('LocalScript', simplespy)
 
 	local button = script.Parent
@@ -731,8 +835,18 @@ local function SWYRO_fake_script() -- simplespy.spy
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
 	end)
 end
-coroutine.wrap(SWYRO_fake_script)()
-local function LUNOFTZ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(HTKOZQP_fake_script)()
+local function JQGAQK_fake_script() -- cobalt.cobalt 
+	local script = Instance.new('LocalScript', cobalt)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		-- https://discord.gg/FJcJMuze7S
+		loadstring(game:HttpGet("https://github.com/notpoiu/cobalt/releases/latest/download/Cobalt.luau"))()
+	end)
+end
+coroutine.wrap(JQGAQK_fake_script)()
+local function RZDY_fake_script() -- TextButton.openclose 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -753,4 +867,4 @@ local function LUNOFTZ_fake_script() -- TextButton.LocalScript
 		isOpen = not isOpen
 	end)
 end
-coroutine.wrap(LUNOFTZ_fake_script)()
+coroutine.wrap(RZDY_fake_script)()
